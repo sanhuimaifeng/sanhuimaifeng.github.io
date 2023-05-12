@@ -11,6 +11,9 @@
     color: white;
     text-align: center;
     line-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -660,30 +663,6 @@ margin:50px auto;
     font-size: 15px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 footer{
     width: 100%;
     height: 600px;
@@ -759,3 +738,19 @@ footer .Fa div{
     background-color: #769fd4;
 }
 
+.BUY img{
+    width: 30px;
+    height: 20px;
+}
+.logo ul li span:nth-child(1):hover{
+    color: #769fd4;
+}
+.BUY:hover{
+    background-color:#769fd4 ;
+}
+.navA span.navA_SpanC:hover{
+    background-color: #769fd4;
+}
+.axB span:hover{
+    background-color: #769fd4;
+}
