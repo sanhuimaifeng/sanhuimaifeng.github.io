@@ -15,7 +15,9 @@
     align-items: center;
     justify-content: center;
 }
-
+.BUY:hover{
+    background-color:#769fd4 ;
+}
 
 body{
     background-color: #e9edf9;
@@ -63,6 +65,9 @@ body{
 .logo ul li span:nth-child(1){
     font-size: 17px;
     font-weight: bold;
+}
+.logo ul li span:nth-child(1):hover{
+    color: #769fd4;
 }
 .logo ul li span:nth-child(2){
     font-size: 3px;
@@ -130,10 +135,10 @@ body{
     display: inline-block;
     width: 120px;
     text-align: center;
-
-
    }
-
+   .navA_SpanC:hover{
+    background-color: #769fd4;
+   }
 
    .navB{
     width: 90%;
@@ -596,7 +601,9 @@ margin:50px auto;
 .axB p{
     line-height: 40px;
 }
-
+.axB span:hover{
+    background-color: #769fd4;
+}
 
 .buy{
     width: 90%;
@@ -742,15 +749,5 @@ footer .Fa div{
     width: 30px;
     height: 20px;
 }
-.logo ul li span:nth-child(1):hover{
-    color: #769fd4;
-}
-.BUY:hover{
-    background-color:#769fd4 ;
-}
-.navA span.navA_SpanC:hover{
-    background-color: #769fd4;
-}
-.axB span:hover{
-    background-color: #769fd4;
-}
+
+
